@@ -1,0 +1,17 @@
+@media only screen and (min-width: 600px){
+    .albumList{
+      margin : 60px;
+      display : grid;
+      grid-template-columns : 1fr 1fr 1fr 1fr;
+      grid-gap:40px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px){
+    .albumList{
+      margin: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-gap:20px;
+    }
+}
