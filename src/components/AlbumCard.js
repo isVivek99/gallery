@@ -8,7 +8,7 @@ const AlbumCard = ({ albumName }) => {
     return ( 
         <div style={{textAlign:"center"}} className="albumCard">
         <img  alt="folder" src={imgSrc} />
-          <h4 >{albumName}</h4>          
+          <h4  style={{marginTop:"0.2rem"}}>{albumName}</h4>          
       </div>
         );
 }
